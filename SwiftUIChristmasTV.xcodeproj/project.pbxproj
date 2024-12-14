@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6840A152D0A4F540057981B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68409FC2D0A4F520057981B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6840A032D0A4F520057981B;
+			remoteInfo = SwiftUIChristmasTV;
+		};
+		D6840A1F2D0A4F540057981B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68409FC2D0A4F520057981B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6840A032D0A4F520057981B;
+			remoteInfo = SwiftUIChristmasTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6840A042D0A4F520057981B /* SwiftUIChristmasTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChristmasTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6840A142D0A4F540057981B /* SwiftUIChristmasTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIChristmasTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6840A1E2D0A4F540057981B /* SwiftUIChristmasTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIChristmasTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6840A062D0A4F520057981B /* SwiftUIChristmasTV */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIChristmasTV;
+			sourceTree = "<group>";
+		};
+		D6840A172D0A4F540057981B /* SwiftUIChristmasTVTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIChristmasTVTests;
+			sourceTree = "<group>";
+		};
+		D6840A212D0A4F540057981B /* SwiftUIChristmasTVUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIChristmasTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6840A012D0A4F520057981B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6840A112D0A4F540057981B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6840A1B2D0A4F540057981B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D68409FB2D0A4F520057981B = {
+			isa = PBXGroup;
+			children = (
+				D6840A062D0A4F520057981B /* SwiftUIChristmasTV */,
+				D6840A172D0A4F540057981B /* SwiftUIChristmasTVTests */,
+				D6840A212D0A4F540057981B /* SwiftUIChristmasTVUITests */,
+				D6840A052D0A4F520057981B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6840A052D0A4F520057981B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6840A042D0A4F520057981B /* SwiftUIChristmasTV.app */,
+				D6840A142D0A4F540057981B /* SwiftUIChristmasTVTests.xctest */,
+				D6840A1E2D0A4F540057981B /* SwiftUIChristmasTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6840A032D0A4F520057981B /* SwiftUIChristmasTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6840A282D0A4F540057981B /* Build configuration list for PBXNativeTarget "SwiftUIChristmasTV" */;
+			buildPhases = (
+				D6840A002D0A4F520057981B /* Sources */,
+				D6840A012D0A4F520057981B /* Frameworks */,
+				D6840A022D0A4F520057981B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6840A062D0A4F520057981B /* SwiftUIChristmasTV */,
+			);
+			name = SwiftUIChristmasTV;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIChristmasTV;
+			productReference = D6840A042D0A4F520057981B /* SwiftUIChristmasTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6840A132D0A4F540057981B /* SwiftUIChristmasTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6840A2B2D0A4F540057981B /* Build configuration list for PBXNativeTarget "SwiftUIChristmasTVTests" */;
+			buildPhases = (
+				D6840A102D0A4F540057981B /* Sources */,
+				D6840A112D0A4F540057981B /* Frameworks */,
+				D6840A122D0A4F540057981B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6840A162D0A4F540057981B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6840A172D0A4F540057981B /* SwiftUIChristmasTVTests */,
+			);
+			name = SwiftUIChristmasTVTests;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIChristmasTVTests;
+			productReference = D6840A142D0A4F540057981B /* SwiftUIChristmasTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6840A1D2D0A4F540057981B /* SwiftUIChristmasTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6840A2E2D0A4F540057981B /* Build configuration list for PBXNativeTarget "SwiftUIChristmasTVUITests" */;
+			buildPhases = (
+				D6840A1A2D0A4F540057981B /* Sources */,
+				D6840A1B2D0A4F540057981B /* Frameworks */,
+				D6840A1C2D0A4F540057981B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6840A202D0A4F540057981B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6840A212D0A4F540057981B /* SwiftUIChristmasTVUITests */,
+			);
+			name = SwiftUIChristmasTVUITests;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIChristmasTVUITests;
+			productReference = D6840A1E2D0A4F540057981B /* SwiftUIChristmasTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D68409FC2D0A4F520057981B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D6840A032D0A4F520057981B = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D6840A132D0A4F540057981B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6840A032D0A4F520057981B;
+					};
+					D6840A1D2D0A4F540057981B = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6840A032D0A4F520057981B;
+					};
+				};
+			};
+			buildConfigurationList = D68409FF2D0A4F520057981B /* Build configuration list for PBXProject "SwiftUIChristmasTV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D68409FB2D0A4F520057981B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6840A052D0A4F520057981B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6840A032D0A4F520057981B /* SwiftUIChristmasTV */,
+				D6840A132D0A4F540057981B /* SwiftUIChristmasTVTests */,
+				D6840A1D2D0A4F540057981B /* SwiftUIChristmasTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6840A022D0A4F520057981B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6840A122D0A4F540057981B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6840A1C2D0A4F540057981B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6840A002D0A4F520057981B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6840A102D0A4F540057981B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6840A1A2D0A4F540057981B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6840A162D0A4F540057981B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6840A032D0A4F520057981B /* SwiftUIChristmasTV */;
+			targetProxy = D6840A152D0A4F540057981B /* PBXContainerItemProxy */;
+		};
+		D6840A202D0A4F540057981B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6840A032D0A4F520057981B /* SwiftUIChristmasTV */;
+			targetProxy = D6840A1F2D0A4F540057981B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6840A262D0A4F540057981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Debug;
+		};
+		D6840A272D0A4F540057981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6840A292D0A4F540057981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIChristmasTV/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIChristmasTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		D6840A2A2D0A4F540057981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIChristmasTV/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIChristmasTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		D6840A2C2D0A4F540057981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIChristmasTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIChristmasTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIChristmasTV";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Debug;
+		};
+		D6840A2D2D0A4F540057981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIChristmasTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIChristmasTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIChristmasTV";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Release;
+		};
+		D6840A2F2D0A4F540057981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIChristmasTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = SwiftUIChristmasTV;
+			};
+			name = Debug;
+		};
+		D6840A302D0A4F540057981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftUIChristmasTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = SwiftUIChristmasTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D68409FF2D0A4F520057981B /* Build configuration list for PBXProject "SwiftUIChristmasTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6840A262D0A4F540057981B /* Debug */,
+				D6840A272D0A4F540057981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6840A282D0A4F540057981B /* Build configuration list for PBXNativeTarget "SwiftUIChristmasTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6840A292D0A4F540057981B /* Debug */,
+				D6840A2A2D0A4F540057981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6840A2B2D0A4F540057981B /* Build configuration list for PBXNativeTarget "SwiftUIChristmasTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6840A2C2D0A4F540057981B /* Debug */,
+				D6840A2D2D0A4F540057981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6840A2E2D0A4F540057981B /* Build configuration list for PBXNativeTarget "SwiftUIChristmasTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6840A2F2D0A4F540057981B /* Debug */,
+				D6840A302D0A4F540057981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D68409FC2D0A4F520057981B /* Project object */;
+}
